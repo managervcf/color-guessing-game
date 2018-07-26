@@ -30,10 +30,10 @@ function setupModeButtons() {
 				case "Easy":
 					numSquares = 3;
 					break;
-				case "Normal": 
+				case "Normal":
 					numSquares = 6;
 					break;
-				case "Hard": 
+				case "Hard":
 					numSquares = 9;
 			}
 			reset();
@@ -74,7 +74,7 @@ function reset() {
 	}
 	messageDisplay.textContent = "";
 	newGameButton.textContent = "New Colors";
-	h1.style.backgroundColor = "steelblue";
+	h1.style.backgroundColor = "#232323";
 }
 
 function changeColors(x) {
