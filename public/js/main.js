@@ -101,16 +101,14 @@ function randomColor() {
 	let r = Math.floor(Math.random() * 256),
 		g = Math.floor(Math.random() * 256),
 		b = Math.floor(Math.random() * 256);
-	return "rgb(" + r + ", " + g + ", " + b + ")";
+	return `rgb(${r}, ${g}, ${b})`;
 }
 
 
-wholeBody.addEventListener("keydown", function(event) {
+wholeBody.addEventListener("keydown", event => {
 	if (event.keyCode === 13 || event.keyCode === 32) {
 		reset();	
 	}
 });
 
-newGameButton.addEventListener("click", function() {
-	reset();
-});
+newGameButton.addEventListener("click", reset);
