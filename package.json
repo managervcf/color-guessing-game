@@ -1,7 +1,7 @@
 {
-  "name": "color-guessing-game",
+  "name": "rgb-color-guessing-game",
   "version": "1.0.0",
-  "description": "RGB Game",
+  "description": "RGB Color Guessing Game written in Vanilla JavaScript",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
