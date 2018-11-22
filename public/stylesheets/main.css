@@ -4,7 +4,7 @@ body {
 	background-color: #212424;
 	margin: 0;
 	font-family: "Cabin Sketch";
-	min-width: 300px;
+	min-width: 350px;
 	user-select: none;
 }
 .square {
@@ -24,9 +24,8 @@ body {
 }
 
 .container {
-	padding-top: 0.5%;
-	max-width: 600px;
-	margin: 5px auto;
+	max-width: 500px;
+	margin: 1% auto;
 }
 
 h1 {
@@ -50,9 +49,8 @@ h1 {
 }
 
 #stripe {
-	padding-left: 5%;
 	background-color: #212424;
-	height: 30px;
+	height: 25px;
 	text-align: center;
 	color: #212424;
 }
@@ -66,7 +64,7 @@ button {
 	border: none;
 	background: none;
 	height: inherit;
-	font-weight: 500;
+	font-weight: 300;
 	color: #e1e1e1;
 	font-family: inherit;
 	letter-spacing: 1px;
@@ -77,8 +75,8 @@ button {
 
 #message {
 	display: inline-block;
-	width: 15%;
-	font-size: 13.3333px;
+	max-width: 15%;
+	font-size: 13px;
 	color: #e1e1e1;
 	font-family: "Cabin Sketch";
 	transition: all 0.5s;
