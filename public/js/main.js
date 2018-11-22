@@ -52,7 +52,7 @@ function setupSquares() {
 				h1.style.backgroundColor = pickedColor;
 				newGameButton.textContent = "Play Again?";
 			} else {
-				this.style.backgroundColor = "#232323";
+				this.style.backgroundColor = "#212424";
 				messageDisplay.textContent = againMessages[Math.floor(Math.random() * againMessages.length)];
 			}
 		});
@@ -74,7 +74,7 @@ function reset() {
 	}
 	messageDisplay.textContent = "";
 	newGameButton.textContent = "New Colors";
-	h1.style.backgroundColor = "#232323";
+	h1.style.backgroundColor = "#212424";
 }
 
 function changeColors(x) {
