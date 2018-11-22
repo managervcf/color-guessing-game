@@ -5,6 +5,7 @@ body {
 	margin: 0;
 	font-family: "Cabin Sketch";
 	min-width: 300px;
+	user-select: none;
 }
 .square {
 	cursor: pointer;
@@ -14,6 +15,7 @@ body {
 	margin: 1.6666%;
 	border-radius: 15%;
 	transition: all 0.5s 0.05s;
+	outline: none;
 }
 
 .square:hover {
