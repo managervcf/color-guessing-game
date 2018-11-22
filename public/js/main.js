@@ -1,7 +1,7 @@
 var numSquares = 6;
 var colors = [];
 var pickedColor;
-var correctMessages = ["Correct!", "Pefect Match!", "Good Eye!", "Spot On"];
+var correctMessages = ["Correct!", "Nice!", "Good!", "Great!"];
 var againMessages = ["Try Again"];
 var squares = document.querySelectorAll(".square");
 var colorDisplay = document.getElementById("color-display");

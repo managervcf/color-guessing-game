@@ -8,13 +8,15 @@ body {
 	user-select: none;
 }
 .square {
-	cursor: pointer;
 	width: 30%;
 	padding-bottom: 30%;
 	float: left;
 	margin: 1.6666%;
 	border-radius: 15%;
 	transition: all 0.5s 0.05s;
+}
+
+.square:focus, .square:focus {
 	outline: none;
 }
 
@@ -49,6 +51,7 @@ h1 {
 }
 
 #stripe {
+	padding-top: 1.5%;
 	background-color: #212424;
 	height: 25px;
 	text-align: center;
@@ -61,9 +64,10 @@ button:hover, .selected {
 }
 
 button {
+	font-size: 0.85rem;
 	border: none;
 	background: none;
-	height: inherit;
+	height: 90%;
 	font-weight: 300;
 	color: #e1e1e1;
 	font-family: inherit;
@@ -75,7 +79,7 @@ button {
 
 #message {
 	display: inline-block;
-	max-width: 15%;
+	width: 18%;
 	font-size: 13px;
 	color: #e1e1e1;
 	font-family: "Cabin Sketch";
