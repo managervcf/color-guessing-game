@@ -70,7 +70,6 @@ button {
 	color: #e1e1e1;
 	font-family: inherit;
 	letter-spacing: 1px;
-	font-size: inherit;
 	transition: all 0.5s 0.05s;
 	outline: none;
 	border-radius: 5px;
@@ -79,7 +78,7 @@ button {
 #message {
 	display: inline-block;
 	width: 15%;
-	font-size: inherit;
+	font-size: 13.3333px;
 	color: #e1e1e1;
 	font-family: "Cabin Sketch";
 	transition: all 0.5s;
