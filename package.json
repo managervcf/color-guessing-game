@@ -1,0 +1,22 @@
+{
+  "name": "rgb-color-guessing-game",
+  "version": "1.0.0",
+  "description": "RGB Color Guessing Game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/managervcf/rgb-color-guessing-game.git"
+  },
+  "author": "Mateusz Pyzowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/managervcf/rgb-color-guessing-game/issues"
+  },
+  "homepage": "https://github.com/managervcf/rgb-color-guessing-game#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
